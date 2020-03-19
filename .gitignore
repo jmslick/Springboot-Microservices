@@ -1,0 +1,5 @@
+/.metadata/.plugins/**
+/Servers/.project
+/Servers/**
+/lab-3-server/.mvn/**
+/.metadata/**
