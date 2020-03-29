@@ -1,0 +1,12 @@
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jmslick/Springboot-Microservices
+          searchPaths: ConfigData  # location of configuration data
+          
+          
+server:
+  port: 8001  # tomcat server port
