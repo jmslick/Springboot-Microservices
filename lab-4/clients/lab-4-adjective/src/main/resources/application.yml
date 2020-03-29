@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: lab-4-adjective service
+
+eureka:
+  instance:
+    preferIpAddress: false # book 108: register IP rather than service name
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka
+      
+words: reasonbale, leaky,suspicious,ordinary,unlikely
+
+server:
+  port: ${PORT:${SERVER_PORT:0}}

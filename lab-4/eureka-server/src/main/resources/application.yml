@@ -1,0 +1,9 @@
+
+server:
+  port: 8010  # tomcat server port
+  # book 106: waitTimeInMsWhenSyncEmpty: 0  
+
+#eureka:
+ # client:
+    #registerWithEureka: false # don't self-register
+    

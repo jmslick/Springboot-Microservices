@@ -3,3 +3,5 @@
 /Servers/**
 /lab-3-server/.mvn/**
 /.metadata/**
+/.metadata/
+*.jar
