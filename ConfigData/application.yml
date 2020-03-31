@@ -1,0 +1,32 @@
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+
+
+---
+spring:
+  profiles: subject
+words: I,eye,you,ewe,he,she
+
+---
+spring:
+  profiles: verb
+word: ran,knew,had,saw,bought,sold,auctioned,discarded,looked,jumped,increased,decreased
+
+---
+spring:
+  profiles: article
+words: a,an,the
+
+---
+spring:
+  profiles: adjective
+words: reasonble,unreasonable,intense,sloppy,leaky,droopy,ordinary,unique,unlikely,likely
+
+---
+spring:
+  noun:
+words: boat,car,book,bird,vote,tree,computer,piano,book,paper,stone,wheel,desk,pencil,shoe
