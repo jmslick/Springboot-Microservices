@@ -8,6 +8,13 @@ eureka:
 
 ---
 spring:
+  profiles: sentence
+server:
+  port: 8020
+words: NotApplicable
+
+---
+spring:
   profiles: subject
 words: I,eye,you,ewe,he,she
 
@@ -24,7 +31,7 @@ words: a,an,the
 ---
 spring:
   profiles: adjective
-words: reasonble,unreasonable,intense,sloppy,leaky,droopy,ordinary,unique,unlikely,likely
+words: reasonable,unreasonable,intense,sloppy,leaky,droopy,ordinary,unique,unlikely,likely
 
 ---
 spring:
