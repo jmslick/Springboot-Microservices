@@ -28,5 +28,5 @@ words: reasonble,unreasonable,intense,sloppy,leaky,droopy,ordinary,unique,unlike
 
 ---
 spring:
-  noun:
+  profiles: noun:
 words: boat,car,book,bird,vote,tree,computer,piano,book,paper,stone,wheel,desk,pencil,shoe
