@@ -5,6 +5,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
 
+server:
+  port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
 
 ---
 spring:
@@ -21,7 +23,7 @@ words: I,eye,you,ewe,he,she
 ---
 spring:
   profiles: verb
-word: ran,knew,had,saw,bought,sold,auctioned,discarded,looked,jumped,increased,decreased
+words: ran,knew,had,saw,bought,sold,auctioned,discarded,looked,jumped,increased,decreased
 
 ---
 spring:
@@ -31,7 +33,7 @@ words: a,an,the
 ---
 spring:
   profiles: adjective
-words: reasonable,unreasonable,intense,sloppy,leaky,droopy,ordinary,unique,unlikely,likely
+words: sloppy,slovely,impeccable,reasonable,unreasonable,intense,sloppy,leaky,droopy,ordinary,unique,unlikely,likely
 
 ---
 spring:
