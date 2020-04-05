@@ -1,3 +1,4 @@
+# CONFIG SERVER
 
 spring:
   cloud:
@@ -5,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/jmslick/Springboot-Microservices
-          searchPaths: ConfigData  # location of configuration data
+          searchPaths: ConfigData  # location of configuration data, can be multiple dirs sep'd by comma
           
           
 server:

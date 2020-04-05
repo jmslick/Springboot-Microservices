@@ -1,15 +1,17 @@
 spring:
   application:
     name: lab-4-subject service
+    profiles:
+      active: subject
 
 eureka:
   instance:
     preferIpAddress: false # book 108: register IP rather than service name
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8010/eureka
       
-words: I,You,He,She,It
+#words: I,You,He,She,It
 
 server:
   port: ${PORT:${SERVER_PORT:0}}
