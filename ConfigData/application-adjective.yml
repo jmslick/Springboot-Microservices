@@ -1,0 +1,4 @@
+spring:
+  profiles:default
+
+words: 1partial,2awful,3rather,4incredible
