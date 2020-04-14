@@ -1,6 +1,1 @@
-spring:
-  profiles:
-    active:
-      default
-
 words: ajddev-partial,ajddev-awful,ajddev-rather,ajddev-incredible
