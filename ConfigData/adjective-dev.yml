@@ -1,0 +1,4 @@
+spring:
+  profiles:default
+
+words: ajddev-partial,ajddev-awful,ajddev-rather,ajddev-incredible
