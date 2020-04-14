@@ -1,4 +1,3 @@
----
 # Items that apply to ALL profiles:
 eureka:
   client:
@@ -6,10 +5,11 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
-#server:
-#  port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
+server:
+  port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
 
 ---
+
 spring:
   profiles: sentence
 server:
@@ -17,26 +17,31 @@ server:
 words: NotApplicable
 
 ---
+
 spring:
   profiles: subject
 words: I,eye,you,ewe,he,she
 
 ---
+
 spring:
   profiles: verb
 words: ran,knew,had,saw,bought,sold,auctioned,discarded,looked,jumped,increased,decreased
 
 ---
+
 spring:
   profiles: article
 words: a,an,the
 
 ---
+
 spring:
   profiles: adjective
 words: sloppy,slovely,impeccable,reasonable,unreasonable,intense,sloppy,leaky,droopy,ordinary,unique,unlikely,likely
 
 ---
+
 spring:
   profiles: noun
 words: boat,car,book,bird,vote,tree,computer,piano,book,paper,stone,wheel,desk,pencil,shoe
