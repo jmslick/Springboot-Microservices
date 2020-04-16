@@ -1,1 +1,9 @@
-words: ajddev-partial,ajddev-awful,ajddev-rather,ajddev-incredible
+spring:
+  profiles: adjone
+words: one-partial,one-awful,one-rather,one-incredible
+
+---
+
+spring:
+  profiles: adjtwo
+words: two-partial,two-awful,two-rather,two-incredible  
