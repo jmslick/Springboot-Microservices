@@ -18,9 +18,9 @@ server:
   port: 8020
 words: NotApplicable
 
-cloud:
-  config:
-    uri: http://localhost:8001
+  cloud:
+    config:
+      uri: http://localhost:8001
 ---
 
 spring:
