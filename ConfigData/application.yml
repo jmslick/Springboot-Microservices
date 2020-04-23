@@ -21,6 +21,14 @@ words: NotApplicable
 
 ---
 
+---
+
+spring:
+  profiles: test
+words: test01,test02,test03
+
+---
+
 spring:
   profiles: subject
 words: I,eye,you,ewe,he,she
