@@ -6,8 +6,8 @@ eureka:
       defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/      
       #defaultZone: http://localhost:8010/eureka/
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-  instance:
-    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+#  instance:
+#    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 
 server:
