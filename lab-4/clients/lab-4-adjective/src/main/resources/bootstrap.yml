@@ -1,4 +1,18 @@
 spring:
+  application:
+    name: LAB-4-ADJECTIVE-SERVICE
+    profiles:    
+      active: default                     
   cloud:
     config:
       uri: http://localhost:8001
+
+words: adjectiveDefaultLocal01,adjectiveDefaultLocal02
+
+# refresh the configuration
+# http://localhost:${port}/actuator/refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

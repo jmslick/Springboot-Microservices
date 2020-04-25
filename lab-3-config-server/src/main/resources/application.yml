@@ -1,13 +1,15 @@
 # CONFIG SERVER
 
+# look up config settings in Git under the searchPaths param below
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/jmslick/Springboot-Microservices
-          searchPaths: ConfigData  # location of configuration data, can be multiple dirs sep'd by comma
-          
+          uri: https://github.com/jmslick/Springboot-Microservices          
+          searchPaths: ConfigData  
+          # location of configuration data, can be multiple dirs sep'd by comma
+          #uri: https://github.com/kennyk65/Microservices-With-Spring-Student-Files
           
 server:
   port: 8001  # tomcat server port

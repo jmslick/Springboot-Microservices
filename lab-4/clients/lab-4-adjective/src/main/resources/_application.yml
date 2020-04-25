@@ -1,10 +1,9 @@
-spring:
-  application:
-    name: lab-4-adjective service
-    #profiles:
-     # active: adjective
-    
-    
+#spring:
+#  application:
+#    name: adjective
+#  profiles:    
+#      active:
+#        default                
 
 eureka:
   instance:
@@ -13,7 +12,8 @@ eureka:
 #    serviceUrl:
 #      defaultZone: http://localhost:8010/eureka  # this will be obtained from config servier; see bootstrap.yml
       
-#words: rather,incredible,vaunted,extremely
+#words: partially, awfully,extraordinarily,rather,incredible,vaunted,extremely
 
-server:
-  port: ${PORT:${SERVER_PORT:0}}
+
+#server:
+ # port: ${PORT:${SERVER_PORT:0}}

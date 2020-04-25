@@ -1,4 +1,10 @@
 spring:
+  application:
+    name: LAB-4-ARTICLE-SERVICE
+    profiles:    
+      active: default                     
   cloud:
     config:
       uri: http://localhost:8001
+
+words: articleDefaultLocal01,articleDefaultLocal02

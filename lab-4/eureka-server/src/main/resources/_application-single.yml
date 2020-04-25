@@ -1,0 +1,14 @@
+
+server:
+  port: 8010  # tomcat server port
+  # book 106: waitTimeInMsWhenSyncEmpty: 0  
+
+eureka:
+  instance:
+    hostname: eurekahost 
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    # defined in git at ConfigData/application.yml for lookup by config server:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    

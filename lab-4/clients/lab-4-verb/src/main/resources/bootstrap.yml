@@ -1,4 +1,10 @@
 spring:
+  application:
+    name: LAB-4-VERB-SERVICE
+    profiles:    
+      active: default                     
   cloud:
     config:
       uri: http://localhost:8001
+
+words: verbDefaultLocal01,verbDefaultLocal02
