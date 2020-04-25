@@ -13,3 +13,12 @@ spring:
           
 server:
   port: 8001  # tomcat server port
+  
+  
+eureka:
+  client:
+    serviceUrl:      
+      #use three eureka servers:
+      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+      #original:
+      #defaultZone: http://localhost:8010/eureka/
