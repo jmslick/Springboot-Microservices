@@ -1,3 +1,5 @@
-#wordConfig:
-luckyWord: a lucky word from github
-preamble: The lab 8 lucky word is:
+---
+wordConfig:
+  preamble: The lab 8 lucky word is:
+  luckyWord: a lucky word from github
+  
