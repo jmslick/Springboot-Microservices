@@ -1,5 +1,5 @@
 ---
 wordConfig:
   preamble: The lab 8 lucky word is 
-  luckyWord: a lucky word from github
+  luckyWord: the github luckyWord value
   
